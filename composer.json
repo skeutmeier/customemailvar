@@ -1,0 +1,24 @@
+{
+    "name": "skeutmeier/customemailvar",
+    "description": "Custom Email Variables",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "modules@keutmeier.de",
+            "name": "SKeutmeier BV"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"skeutmeier/module-base": ">=1.0.2"
+	}
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Skeutmeier\\Customemailvar\\": ""
+        }
+    }
+}
