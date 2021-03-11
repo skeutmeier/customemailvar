@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		
+		<section id="base" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label">
+			
+			<group id="version" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				
+				<field id="infofield_customemailvar" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="label">
+					<label>CustomEmailVar</label>
+					<comment>1.0.1</comment>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
