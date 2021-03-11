@@ -8,7 +8,7 @@
 				
 				<field id="infofield_customemailvar" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="label">
 					<label>CustomEmailVar</label>
-					<comment>1.0.3</comment>
+					<comment>1.0.4</comment>
 				</field>
 			</group>
 		</section>
