@@ -3,6 +3,6 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="email_order_set_template_vars_before">
         <observer name="skeutmeier_add_custom_variable_to_email"
-                  instance="Skeutmeier\Customeamilvar\Observer\ObserverforAddCustomVariable"/>
+                  instance="Skeutmeier\Customemailvar\Observer\ObserverforAddCustomVariable"/>
     </event>
 </config>
